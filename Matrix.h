@@ -18,4 +18,5 @@ public:
     int getCols() const;
 
     void print() const;
+    void printInfo() const;
 };

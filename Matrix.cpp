@@ -27,3 +27,8 @@ void Matrix::print() const {
         std::cout << std::endl;
     }
 }
+
+void Matrix::printInfo() const {
+    std::cout << "Rows: " << rows << std::endl;
+    std::cout << "Cols: " << cols << std::endl;
+}

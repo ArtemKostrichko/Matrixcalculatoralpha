@@ -12,5 +12,9 @@ int main() {
     std::cout << "Matrix:" << std::endl;
     m.print();
 
+    std::cout << std::endl;
+    std::cout << "Matrix info:" << std::endl;
+    m.printInfo();
+
     return 0;
 }
