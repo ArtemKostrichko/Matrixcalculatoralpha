@@ -3,4 +3,7 @@ project(MatrixCalculator)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(matrix_calculator main.cpp)
+add_executable(matrix_calculator
+        main.cpp
+        Matrix.cpp
+)
